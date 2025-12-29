@@ -177,6 +177,10 @@ def parse_args():
     ap.add_argument("--out", default="/workspace/output", help="output dir")
     ap.add_argument("--device", default=None, help='e.g. "cpu" or "0" (GPU id)')
 
+
+
+
+
     ap.add_argument("--smoking_action_class", default="smoking")
     ap.add_argument("--cigarette_class", default="cigarette")
     ap.add_argument("--cls_positive_labels", default="smoking,smoke,cigarette,hút_thuốc")
