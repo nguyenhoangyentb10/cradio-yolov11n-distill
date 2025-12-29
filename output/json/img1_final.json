@@ -1,0 +1,20 @@
+{
+  "image": "/workspace/input/img1.png",
+  "image_size": {
+    "w": 832,
+    "h": 1248
+  },
+  "models": {
+    "det": "/workspace/models/det_best.pt",
+    "cls": "/workspace/models/cls_best.pt"
+  },
+  "detection": {
+    "has_smoking_action": false,
+    "smoking_boxes": [],
+    "cigarette_boxes": []
+  },
+  "crops": [],
+  "classification": [],
+  "confirmed_smoking": false,
+  "annotated_image": null
+}

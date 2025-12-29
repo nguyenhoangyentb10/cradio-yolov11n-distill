@@ -1,0 +1,63 @@
+{
+  "image": "/workspace/input/img4.png",
+  "image_size": {
+    "w": 2816,
+    "h": 1536
+  },
+  "models": {
+    "det": "/workspace/models/det_best.pt",
+    "cls": "/workspace/models/cls_best.pt"
+  },
+  "detection": {
+    "has_smoking_action": true,
+    "smoking_boxes": [
+      {
+        "cls_id": 0,
+        "cls_name": "smoke",
+        "conf": 0.3684886693954468,
+        "bbox_xyxy": [
+          749.2503662109375,
+          258.7341613769531,
+          1817.7705078125,
+          1172.5294189453125
+        ]
+      }
+    ],
+    "cigarette_boxes": [
+      {
+        "cls_id": 0,
+        "cls_name": "smoke",
+        "conf": 0.3684886693954468,
+        "bbox_xyxy": [
+          749.2503662109375,
+          258.7341613769531,
+          1817.7705078125,
+          1172.5294189453125
+        ]
+      }
+    ]
+  },
+  "crops": [
+    {
+      "crop_path": "/workspace/output/crops/img4_crop_0.jpg",
+      "from_cls": "smoke",
+      "from_bbox_xyxy": [
+        749,
+        259,
+        1818,
+        1173
+      ],
+      "from_conf": 0.3684886693954468
+    }
+  ],
+  "classification": [
+    {
+      "crop_path": "/workspace/output/crops/img4_crop_0.jpg",
+      "top1_label": "no_smoke",
+      "top1_conf": 0.5186966061592102,
+      "is_smoking": false
+    }
+  ],
+  "confirmed_smoking": false,
+  "annotated_image": null
+}
